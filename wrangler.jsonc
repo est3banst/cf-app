@@ -9,7 +9,15 @@
 	"compatibility_date": "2025-10-11",
 	"observability": {
 		"enabled": true
-	}
+	},
+	"d1_databases": [
+		{
+			"binding": "u_projects_db",
+			"database_name": "u-projects-db",
+			"database_id": "2b145aae-c54a-40a3-b8e8-9aa76fd0c3c3",
+			"remote": true
+		}
+	]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
